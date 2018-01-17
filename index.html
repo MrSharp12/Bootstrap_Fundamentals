@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Always put our CSS file under Bootstrap -->
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css"> 
+</head>
+<body>
+    <nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Home</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Login</button>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">I stay noided</h1>
+          <p class="lead">I've seen footage, I've seen footage, I've seen footage!</p>
+        </div>
+      </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+    <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>   
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="rowOne">
+        <div class="col-md-8">
+            <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+    </div>
+    <div class="row" id="rowTwo">
+        <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur? Blanditiis, aut. Sequi corporis quibusdam nemo similique iusto libero rerum sint? Provident, eum sequi ut modi rem repellat nulla non?</p>
+        </div>
+    
+        <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur? Blanditiis, aut. Sequi corporis quibusdam nemo similique iusto libero rerum sint? Provident, eum sequi ut modi rem repellat nulla non?</p>
+        </div>
+        <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur? Blanditiis, aut. Sequi corporis quibusdam nemo similique iusto libero rerum sint? Provident, eum sequi ut modi rem repellat nulla non?</p>
+        </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
